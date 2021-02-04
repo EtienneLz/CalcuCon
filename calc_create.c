@@ -65,7 +65,7 @@ void create()
       if (i == 2)
         nb2 = 1;
     }
-    fprintf(fichier, "\tprintf(\"Merci d'avoir utiliser @CalcuCon TM\nCopyright Etienne Louchez 2021)\");\n");
+    fprintf(fichier, "\tprintf(\"Merci d'avoir utiliser @CalcuCon TM\\nCopyright Etienne Louchez 2021\");\n");
     fprintf(fichier, "}\n");
     fclose(fichier);
   }
