@@ -6,8 +6,8 @@
 void create()
 {
   FILE* fichier = NULL;
-  remove("CalcuConLight.c");
-  fichier = fopen("CalcuConLight.c","w");
+  remove("CalcuCon.c");
+  fichier = fopen("CalcuCon.c","w");
 
   float nb1 = 0;
   float nb2 = 0;
@@ -31,9 +31,9 @@ void create()
     fprintf(fichier, "\tscanf(\"%%f\", &num2);\n");
     while (i < 4)
     {
-      while (nb1 <= 50)
+      while (nb1 <= 100)
       {
-        while (nb2 <= 50)
+        while (nb2 <= 100)
         {
           fprintf(fichier, "\tif ((num1 == %f) && (num2 == %f) && (sign == '%c'))\n", nb1, nb2, sign[i]);
           if (i == 0)
@@ -65,7 +65,7 @@ void create()
       if (i == 2)
         nb2 = 1;
     }
-    fprintf(fichier, "\tprintf(\"Merci d'avoir utiliser CalcuCon TM (tous droits réservés - Etienne Louchez 2021)\");\n");
+    fprintf(fichier, "\tprintf(\"Merci d'avoir utiliser @CalcuCon TM\nCopyright Etienne Louchez 2021)\");\n");
     fprintf(fichier, "}\n");
     fclose(fichier);
   }

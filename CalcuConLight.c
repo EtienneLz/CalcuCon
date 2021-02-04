@@ -20723,5 +20723,6 @@ int main(void)
 		printf("50.000000 * 49.000000 = 2450.000000 \n");
 	if ((num1 == 50.000000) && (num2 == 50.000000) && (sign == '*'))
 		printf("50.000000 * 50.000000 = 2500.000000 \n");
-	printf("Merci d'avoir utiliser CalcuCon TM (tous droits réservés - Etienne Louchez 2021)");
+	printf("Merci d'avoir utiliser @CalcuCon TM
+Copyright Etienne Louchez 2021)");
 }
