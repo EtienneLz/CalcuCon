@@ -74,5 +74,6 @@ void create()
 int main()
 {
   create();
+  printf("CalcuCon go brrrrr");
   return (0);
 }
